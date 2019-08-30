@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="text-center">
+    <h1>{{title}}</h1>
+	<h1>Hello World We Are Working</h1>
+</div>
+<div class="container">
+    <div class="row">
+        <!-- <div class="col">
+            {{content}}
+            <div class="col-sm-6 col-12" >
+            <form method="POST"    action=""> {% csrf_token %}
+                <input  class="form-control"   type="text" placeholder="name" name="fullname">
+          
+            <input class="form-control" type="email" placeholder="email" name="useremail">
+            <textarea class="form-control"  name="content" placeholder="your content" id="" cols="30" rows="10"></textarea>
+            <button class="btn btn-default" type="submit " >Submit</button>
+        
+        </form>
+        </div> -->
+        <div class="col">
+                {{content}}
+                <div class="col-sm-6 col-12" >
+                <form method="POST"    action=""> {% csrf_token %}
+                  {{form}}
+                  <button class="btn btn-default" type="submit " >Submit</button>
+            </form>
+            </div>
+        </div>
+    </div>
+</div>
+    {% endblock%}

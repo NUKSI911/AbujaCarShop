@@ -1,0 +1,23 @@
+{% extends "base.html"%}
+
+{% block body %}
+    <div class="container">
+<div class="text-center">
+    <h1>{{title}} We Are Working</h1>
+    
+</div>
+<div class="row">
+    <div class="col">
+        <p>
+            {{content}}
+        </p>
+       {% if request.user.is_authenticated %}
+        <p>
+            {{premium_content}}
+           
+        </p>
+        {% endif %}
+    </div>
+</div>
+</div>
+{% endblock %}

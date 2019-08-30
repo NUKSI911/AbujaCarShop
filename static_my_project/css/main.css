@@ -1,0 +1,10 @@
+/* body{
+   background-image: linear-gradient(rgba(1,15,31,0.9),rgba(1,15,31,0.9)),url('profile_pictures.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   width:100vw;
+   height:100vh;
+} */
+body{
+   color:"brown";
+}

@@ -1,0 +1,44 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "title": "Tshirt",
+        "slug": "tshirt",
+        "description": "This is an awesome shirt buy it",
+        "price": "39.99",
+        "image": "products/Picture2.png",
+        "featured": false,
+        "active": true,
+        "timestamp": "2019-08-06T02:04:41.973Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "title": "Hat",
+        "slug": "hat",
+        "description": "This is an awesome hat",
+        "price": "39.99",
+        "image": "products/1430776629/1430776629.jpeg",
+        "featured": false,
+        "active": true,
+        "timestamp": "2019-08-06T02:04:41.973Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "title": "Super Computer",
+        "slug": "super-computer",
+        "description": "very expensive computer",
+        "price": "400000000.00",
+        "image": "products/372476079/372476079.jpeg",
+        "featured": true,
+        "active": true,
+        "timestamp": "2019-08-06T02:04:41.973Z"
+    }
+}
+]
