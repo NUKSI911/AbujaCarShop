@@ -5,7 +5,7 @@ Click==7.0
 configparser==3.7.4
 cryptography==2.3
 dj-database-url==0.5.0
-Django==1.11.22
+Django==2.2.24
 django-filter==2.0.0
 djangorestframework==3.9.4
 entrypoints==0.3
